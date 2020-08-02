@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "GraphQl and Gatsby Bootcamp",
+    author: "Olawale Tope Afuye",
+  },
+  plugins: ["gatsby-transformer-remark", "gatsby-plugin-react-helmet"],
 }
